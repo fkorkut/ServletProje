@@ -1,0 +1,18 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>personel</servlet-name>
+    <servlet-class>egitim.uniyaz.FindAllPersonServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>personel</servlet-name>
+    <url-pattern>/Personel</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
